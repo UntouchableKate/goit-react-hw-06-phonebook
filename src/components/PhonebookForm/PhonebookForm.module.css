@@ -1,0 +1,44 @@
+.wrapper {
+  outline: 2px solid #000;
+  width: 45%;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 15px;
+}
+
+.spanStyle {
+  font-size: medium;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-weight: 500;
+}
+
+.inputStyle {
+  width: 150px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.buttonStyle {
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 95px;
+  height: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.buttonStyle:hover {
+  background-color: lightgray;
+}
+
+.buttonStyle:active {
+  background-color: steelblue;
+}
